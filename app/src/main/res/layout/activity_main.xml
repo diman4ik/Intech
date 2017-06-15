@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ru.test.intech.androidsongsearch.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/AppTheme.AppActionBarTheme"
+            app:layout_scrollFlags="scroll|enterAlways"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/fragment_songs"
+        android:name="ru.test.intech.androidsongsearch.SongsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="ru.test.intech.androidsongsearch.SongsFragment"
+        app:layout_behavior = "@string/appbar_scrolling_view_behavior"/>
+    <ProgressBar
+        android:id="@+id/busy_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone">
+    </ProgressBar>
+</android.support.design.widget.CoordinatorLayout>

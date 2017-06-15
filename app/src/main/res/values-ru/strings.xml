@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск музыки</string>
+    <string name="action_settings">Список/Таблица</string>
+    <string name="search_hint">Искать по песням и исполнителям</string>
+    <string name="song_preview">Прослушать отрывок</string>
+    <string name="artwork">обложка</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Music Search</string>
+    <string name="action_settings">List/Grid</string>
+    <string name="search_hint">Search songs and artists</string>
+    <string name="song_preview">Song Preview</string>
+    <string name="artwork">artwork</string>
+    <string name="content_authority">ru.test.intech.androidsongsearch</string>
+    <string name="suggestions_authority">ru.test.intech.SuggestionsProvider</string>
+</resources>
